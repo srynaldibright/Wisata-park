@@ -1,0 +1,105 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body {
+    background-color: lightgrey;
+    font-family: sans-serif;
+}
+.main-container {
+    background-color: white;
+    width: 90%;
+    margin: auto;
+    padding: 10px;
+}
+.img-header {
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+}
+.img-header img{
+    width: 20%;
+    
+}
+.menu-header{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+    flex-wrap: wrap;
+}
+.menu-header a{
+    flex: 1;
+text-decoration: none;
+background-color: rgb(255, 30, 30);
+color: white;
+padding: 10px;
+border: 1px solid white;
+text-align: center;
+}
+.menu-header a:hover{
+    background-color: rgb(253, 80, 80);
+color: black;
+}
+.info-container {
+    display: flex;
+    justify-content: center;
+    text-wrap: wrap;
+}
+.paket-container {
+    width: 300px;
+    margin: 10px;
+}
+.paket-container h4 {
+    color: rgb(129, 118, 118);
+}
+.paket-container img {
+    width: 100%;
+   
+}
+.video-container {
+    width: 300px;
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.video-container iframe {
+    width: 100%;
+    height: auto;
+}
+.search-container {
+    margin-bottom: 10px;
+}
+.search-container input[type='text']{
+    padding : 5px;
+    margin-right: 10px;
+    }
+.search-container input[type='submit']{
+padding : 5px;
+}
+.brand-container {
+    width: 50%;
+    position: absolute;
+    top: 10%;
+    left: 10%;}
+.brand-container img {
+    width: 60%;
+}
+.brand-container h1 {
+    color: white;
+    text-shadow: 2px 2px 8px #000;
+    font-size: 3.5vw;
+    font-family: "Teko", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+}
+.brand-container h2 {
+    color: white;
+    font-size: 2.5vw;
+    text-shadow: 2px 2px 8px #000;
+    font-family: "Lobster", sans-serif;
+     font-weight: 400;
+    font-style: normal;
+
+}
